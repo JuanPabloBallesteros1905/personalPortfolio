@@ -13,19 +13,15 @@ export const BackendSkills: React.FC = () => {
           {...fadeInUp}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-            Backend Expertise
+            Backend Skills
           </h2>
-          <p className="text-xl text-gray-600 dark:text-gray-300 max-w-3xl mx-auto">
-            Proficient in modern backend technologies, API development, and database management
-          </p>
+   
         </motion.div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-1 gap-12  ">
           {/* Tech Stack */}
           <motion.div {...fadeInUp}>
-            <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-6">
-              Technology Stack
-            </h3>
+        
             <TechStackDisplay />
           </motion.div>
 
