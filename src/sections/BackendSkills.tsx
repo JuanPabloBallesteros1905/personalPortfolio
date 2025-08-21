@@ -13,7 +13,7 @@ export const BackendSkills: React.FC = () => {
           {...fadeInUp}
         >
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-            Backend Skills
+            Backend  
           </h2>
    
         </motion.div>
