@@ -13,7 +13,7 @@ function App() {
   const { theme } = useTheme();
 
   useEffect(() => {
-    // Start MSW worker in development
+  
     if (import.meta.env.DEV) {
       worker.start({
         onUnhandledRequest: 'bypass',
